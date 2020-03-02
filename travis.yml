@@ -1,5 +1,0 @@
-language:
-    java
-script:
-    javac -cp junit-4.13-beta-1.jar Pangram.java PangramTest.java && java -cp .:junit-4.13-beta-1.jar:hamcrest-all-1.3.jar org.juni
-t.runner.JUnitCore PangramTest
